@@ -20,7 +20,8 @@
     ],
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build --target lib --name vue-backtop-pack ./src/index.js",
+        "build:lib": "vue-cli-service build --target lib --name vue-backtop-pack ./src/index.js",
+        "build:wc": "vue-cli-service build --target wc --name vue-backtop-pack ./src/vue-backTop.vue",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
